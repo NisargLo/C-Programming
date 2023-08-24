@@ -1,4 +1,12 @@
 #include<stdio.h>
-void main (){
-     
+void main() {
+     int n;
+     printf("Enter NO.");
+     scanf("%d",&n);
+     if(n%2==0){
+          printf("Number is Even");
+     }
+     else{
+          printf("Number is Odd");
+     }
 }
