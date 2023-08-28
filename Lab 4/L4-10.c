@@ -1,10 +1,11 @@
 #include<stdio.h>
 void main () {
-     int y,m,d;
+     int y,w,d;
      printf("Enter Days : ");
      scanf("%d",&d);
      y=d/365;
-     m=(d%365)/7;
-     d=(d%365)%7;
-     printf("Your days in YY:MM:DD is %d:%d:%d",y,m,d);
+     d=d%365;
+     w=(d/7);
+     d=d%7; 
+     printf("Your days in years, weeks, days is %d, %d, %d",y,w,d);
 }
