@@ -22,4 +22,5 @@ void main(){
           || c=='<' || c=='>' || c==';' || c==':' || c=='/' || c=='\ ' || c=='?' 
           || c==',' || c=='.'){
                printf("You entered a Special Character.");}
+     else{printf("You entered a Special Character.");}
           }
