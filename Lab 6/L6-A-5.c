@@ -3,11 +3,7 @@ void main() {
 	int a,b,c,d,e;
 	float f;
 	printf("Enter Marks of your 5 Subjects : ");
-	scanf("%d",&a);
-	scanf("%d",&b);
-	scanf("%d",&c);
-	scanf("%d",&d);
-	scanf("%d",&e);
+	scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
 	f=(a+b+c+d+e)/5;
 	printf("%f",f);
 	if(f<35)
