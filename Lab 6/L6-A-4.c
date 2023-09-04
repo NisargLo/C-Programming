@@ -3,6 +3,6 @@ void main() {
      int n;
      printf("Enter an Integral NO. : ");
      scanf("%d",&n);
-     (n%2==0)?(printf("Last digit of NO. is Even")):(printf("Last digit of NO. is Odd"));
+     n=n%10;
+     (n%2==0)?(printf("%d digit is Even",n)):(printf("%d digit is Odd",n));
 }
-
