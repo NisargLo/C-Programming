@@ -1,29 +1,21 @@
 #include<stdio.h>
-void main() {
-     int uc;
-     float tb;
-//uc - unit charge
-//tb - total bill
-     printf("Enter Electricity Unit Charge : ");
-     scanf("%d",&uc);
-     if(uc<=50){
-          tb=uc*0.5;
-          tb=tb+(tb*0.2);
-          printf("Total ELectricity Bill : %f Rs.",tb);
-     }
-     else if(uc>50 && uc<=150){
-          tb=(50*0.5)+(uc-50)*0.75;
-          tb=tb+(tb*0.2);
-          printf("Total ELectricity Bill : %f Rs.",tb);
-     }
-     else if(uc>150 && uc<=250){
-          tb=(50*0.5)+(100*0.75)+(uc-150)*1.2;
-          tb=tb+(tb*0.2);
-          printf("Total ELectricity Bill : %f Rs.",tb);
-     }
-     else{
-          tb=(50*0.5)+(100*0.75)+(100*1.2)+(uc-250)*1.5;
-          tb=tb+(tb*0.2);
-          printf("Total ELectricity Bill : %f Rs.",tb);
-     }
+void main(){
+	float u,b;
+	printf("Enter Unit Charge : ");
+	scanf("%f",&u);
+	if(u<=50){
+	b=0.5*u;
+	}
+	else if(u<=150){
+	b=(u-50)*0.75+(0.5*50);
+	}
+	else if(u<=250){
+	b=(0.5*50)+(0.75*100)+(u-150)*1.2;
+	}
+	else{
+	b=(0.5*50)+(0.75*100)+(1.2*100)+(u-250)*1.5;
+	}
+	b=b+(0.2*b);
+	printf("Total Electricity Bill is %f",b);
 }
+
