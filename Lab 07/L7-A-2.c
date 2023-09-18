@@ -14,6 +14,11 @@ void main() {
           break;
           case 2: printf("28 Days");
           break;
-          default: printf("30 Days");
+          case 4:
+          case 6:
+          case 9:
+          case 11: printf("30 Days");
+          break;
+          default: printf("Invalid");
      }
 }
