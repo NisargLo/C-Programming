@@ -2,12 +2,14 @@
 void main() {
      int n=0,i=1,c=1;
      while(i<=10){
-          printf("\n%d",i);
+          printf("%d ",i);
           i++;
      }
-     do
-     {
-          /* code */
-     } while (/* condition */);
-     
+     printf("\nEnter Number : ");
+     scanf("%d",&n);
+     printf("Numbers from 1 to %d are : ",n);
+     do{
+          printf("%d ",c);
+          c++;
+     } while(c<=n);
 }
