@@ -1,19 +1,16 @@
 #include<stdio.h>
-void main() {
-	int n=0,i=1,r,a=0;
-	printf("Enter Decimal NO. : ");
-	scanf("%d",&n);
-	printf("Binary of %d = ",n); 
-	while(n!=0){
-		r=n%2;
-		if(r==0){
-			a=a*10; 
-		}
-		else{
-			a=(a*10)+r;
-		}
-		n=n/2;
-	}
-	printf("%d",a);
+void main()
+{
+  int n,r,m=1,bin=0;
+  printf("Enter Number : ");
+  scanf("%d",&n);
+  while(n!=0)
+  {
+    r=n%2;
+    bin=bin+(r*m);
+    m=m*10;
+    n=n/2;
+  }
+  printf("\nBinary Value : %d",bin); 
 }
-
+            
