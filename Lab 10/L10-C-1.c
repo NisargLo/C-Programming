@@ -12,8 +12,10 @@ void main() {
 	while(n!=0) {
 		r=n%10;
 		p=1;
-	for(a=1;a<=c;a++) {
-		p=(p*r);
+		a=1;
+	while(a<=c) {
+	p=(p*r);
+	a++;
 	}
 	b=b+p;
 	n=n/10;
