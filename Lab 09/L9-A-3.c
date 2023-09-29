@@ -1,3 +1,5 @@
+//Calculate 𝑥𝑦 without using power function
+
 #include<stdio.h>
 void main() {
 	int x=0,y=0,i=1,a=1;

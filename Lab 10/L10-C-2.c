@@ -1,3 +1,5 @@
+//Find HCF and LCM of two numbers
+
 #include<stdio.h>
 void main() {
 	int i=2,n1,n2,temp1,temp2,j=2;

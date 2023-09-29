@@ -1,3 +1,5 @@
+//Find factorial of the given number
+
 #include<stdio.h>
 void main() {
 	 int n=0,i=2,a=1,b;

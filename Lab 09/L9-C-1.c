@@ -1,3 +1,5 @@
+//Convert given number in words.(i.e. n=3456  output: Three Four Five Six)
+
 #include<stdio.h>
 void main() {
      int n,r,store=0,a;

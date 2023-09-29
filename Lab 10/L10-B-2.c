@@ -1,3 +1,5 @@
+//Find whether the given number is prime or not using flag
+
 #include<stdio.h>
 void main() {
 	int n=0,i=2,flag;

@@ -1,3 +1,5 @@
+//Check whether the given number is Armstrong or not
+
 #include<stdio.h>
 void main() {
 	int n,r,c=0,p,a,b=0,d;

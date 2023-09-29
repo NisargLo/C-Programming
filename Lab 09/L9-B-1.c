@@ -1,3 +1,5 @@
+//Print all uppercase and lowercase alphabets
+
 #include<stdio.h>
 void main() {
 //a-97,z-122,A-65,Z-90

@@ -1,3 +1,5 @@
+//Convert decimal number to binary. (i.e. n=11  output: 1101)
+
 #include<stdio.h>
 void main()
 {

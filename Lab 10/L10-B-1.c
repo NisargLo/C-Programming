@@ -1,3 +1,5 @@
+//Check whether the given number is perfect or not
+
 #include<stdio.h>
 void main() {
 	int n,i=1,s=0,a;
