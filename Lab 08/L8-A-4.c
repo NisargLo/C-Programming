@@ -1,3 +1,5 @@
+//Print sum of 1 to n numbers.
+
 #include<stdio.h>
 void main() {
      int n=0,i=1,s;

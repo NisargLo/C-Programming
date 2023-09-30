@@ -1,3 +1,5 @@
+//Get 10 numbers from user print count of odd, even numbers
+
 #include<stdio.h>
 void main() {
      int n=0,oc=0,ec=0,c=1;

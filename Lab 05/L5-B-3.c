@@ -1,3 +1,5 @@
+//Multiply and divide a number by 2 without using multiplication/division operator
+
 #include<stdio.h>
 void main() {
 int a,b,c,d;

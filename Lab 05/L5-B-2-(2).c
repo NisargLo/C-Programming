@@ -1,3 +1,5 @@
+//Check whether the given number is odd or even using bitwise operator.
+
 #include<stdio.h>
 void main(){
 int a;

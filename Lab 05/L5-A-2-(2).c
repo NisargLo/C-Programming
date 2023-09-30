@@ -1,3 +1,5 @@
+//Swap two numbers. (Using temporary variable and without using temporary variable)
+
 #include<stdio.h>
 void main (){
      float a,b;

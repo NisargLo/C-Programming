@@ -1,3 +1,5 @@
+//Find out largest number from given three numbers.
+
 #include<stdio.h>
 void main(){
      int a,b,c;

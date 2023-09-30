@@ -1,3 +1,5 @@
+//Print area of circle. (pie*r*r)
+
 #include<stdio.h>
 void main (){
 	float p=3.14,r,a;

@@ -1,3 +1,5 @@
+//Print number of days in a month using switch
+
 #include<stdio.h>
 void main() {
      int a;

@@ -1,3 +1,5 @@
+//Determine the roots of the equation ax2+bx+c=0.
+
 #include<stdio.h>
 #include<math.h>
 void main(){

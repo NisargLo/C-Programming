@@ -1,3 +1,5 @@
+//Print number of days in a month considering leap year using switch
+
 #include<stdio.h>
 void main() {
      int a;

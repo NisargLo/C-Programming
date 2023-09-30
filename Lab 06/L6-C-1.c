@@ -1,3 +1,5 @@
+//Find the second largest number among three user input numbers.
+
 #include<stdio.h>
 void main() {
      int a,b,c;

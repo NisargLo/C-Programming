@@ -1,3 +1,5 @@
+//Print average of three numbers. (with & without scanf)
+
 #include<stdio.h>
 void main (){
 	float a,b,c,d;

@@ -1,3 +1,5 @@
+//Check whether given character is vowel or consonant. (Using single if only
+
 #include<stdio.h>
 void main (){
      char vowel;

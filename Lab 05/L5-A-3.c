@@ -1,3 +1,5 @@
+//Check whether given number is positive or negative
+
 #include<stdio.h>
 void main (){
      int n;

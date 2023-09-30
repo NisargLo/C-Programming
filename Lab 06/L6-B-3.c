@@ -1,3 +1,5 @@
+//Three sides of a triangle are entered through the keyboard, WAP to check whether the triangle is isosceles, equilateral, scalene or right angled triangle.
+
 #include<stdio.h>
 void main() {
 	float s1,s2,s3;

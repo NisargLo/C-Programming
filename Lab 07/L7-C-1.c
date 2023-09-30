@@ -1,3 +1,5 @@
+//Check for equality of two numbers without using arithmetic or comparison operator.
+
 #include<stdio.h>
 void main() {
      int a,b;

@@ -1,3 +1,5 @@
+//Check whether the given number is odd or even.
+
 #include<stdio.h>
 void main() {
      int n;

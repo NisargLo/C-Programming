@@ -1,3 +1,5 @@
+//Print area of triangle. ((height*base)/2)
+
 #include<stdio.h>
 void main (){
 	float a,b,h;

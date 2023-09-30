@@ -1,3 +1,5 @@
+//Convert seconds into hours, minutes & seconds and print in HH:MM:SS. [e.g. 10000 seconds = 02:46:40)]
+
 #include<stdio.h>
 void main() {
         int h,m,s;

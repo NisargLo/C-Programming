@@ -1,3 +1,5 @@
+//Calculate the square of integers 1 through 10.
+
 #include<stdio.h>
 #include<math.h>
 void main() {
