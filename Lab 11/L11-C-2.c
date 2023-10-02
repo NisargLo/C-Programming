@@ -2,14 +2,16 @@
 
 #include<stdio.h>
 void main() {
-     int i,b,e,a=0,j,c=0;
+     int i,j,b,e,x,ans;
      printf("Enter Base & Exponent : ");
      scanf("%d %d",&b,&e);
-     for(i=1;i<=e;i++){
-     for(j=1;j<=b;j++){
-          a=a+b;
+     x=b;
+     ans=b;
+     for(i=1;i<e;i++){
+          for(j=1;j<b;j++){
+               ans=ans+x;
+          }
+     x=ans;
      }
-     printf("\na=%d",a);
-     }
-     printf("\nc=%d",c);
+     printf("Answer = %d",ans);
 }
