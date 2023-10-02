@@ -1,5 +1,4 @@
-//Find the sum and average of different numbers which are accepted by user 
-//as many as user wants.
+//Find the sum and average of different numbers which are accepted by user as many as user wants.
 
 #include<stdio.h>
 void main(){
@@ -16,4 +15,3 @@ void main(){
 	a=a/c;
 	printf("Sum = %d  Average = %d",s,a);
 }
-
