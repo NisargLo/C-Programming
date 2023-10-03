@@ -2,33 +2,24 @@
 
 #include<stdio.h>
 void main() {
-	int i=2,n1,n2,temp1,temp2,j=2;
+	int n1,n2,a,b,l,h,i=1;
 	printf("Enter 2 NO. : ");
 	scanf("%d %d",&n1,&n2);
-	while(i<=n1) {
-		if(n1%i==0) {
-			temp1=i;
+	if(n1<=n2){
+		a=n1;
+		b=n2;
+	}
+	else{
+		a=n2;
+		b=n1;
+	}
+	while(i<=a){
+		if(a%i==0 && b%i==0){
+			h=i;
 		}
 		i++;
 	}
-	while(j<=n2) {
-		if(n2%j==0) {
-			temp2=j;
-		}
-		j++;
-	}
-	while((temp1>0 && temp2<=0) || (temp2>0 && temp1<=0)){
-	if(temp1>temp2){
-		temp1=temp1-temp2;
-	}
-	else{
-		temp2=temp2-temp1;
-	}
-	}
-	if(temp1>temp2){
-		printf("HCF = %d",temp1);
-	}
-	else{
-		printf("HCF = %d",temp2);
-	}
+	l=a*b/h;
+	printf("HCF = %d",h);
+	printf("\nLCM = %d",l);
 }

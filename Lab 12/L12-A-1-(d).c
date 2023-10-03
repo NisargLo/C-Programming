@@ -1,3 +1,10 @@
+/*   1
+     22
+     333
+     4444
+     55555
+*/
+
 #include<stdio.h>
 void main() {
      int i,j,k=1;
