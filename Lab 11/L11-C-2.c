@@ -5,13 +5,13 @@ void main() {
      int i,j,b,e,x,ans;
      printf("Enter Base & Exponent : ");
      scanf("%d %d",&b,&e);
-     x=b;
      ans=b;
+     x=b;
      for(i=1;i<e;i++){
           for(j=1;j<b;j++){
                ans=ans+x;
           }
-     x=ans;
+          x=ans;
      }
      printf("Answer = %d",ans);
 }
