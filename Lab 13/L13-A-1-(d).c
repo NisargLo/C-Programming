@@ -1,8 +1,8 @@
 /*           1
-           2   2
-         3   3   3
-       4   4   4   4
-     5   5   5   5   5
+           1   2
+         1   2   3
+       1   2   3   4
+     1   2   3   4   5
 */
 
 #include<stdio.h>
@@ -14,7 +14,7 @@ void main() {
                printf(" ");
           }
           for(k=1;k<=j;k++){
-               printf("%d ",i-1);
+               printf("%d ",k);
           }
           printf("\n");
           }
