@@ -1,8 +1,8 @@
-/*           1
-           A   B
-         1   2   3
-       C   D   E   F
-     1   2   3   4   5
+/*       1
+        A B
+       1 2 3
+      C D E F
+     1 2 3 4 5
 */
 
 #include<stdio.h>
