@@ -8,6 +8,7 @@
 #include<stdio.h>
 void main() {
      int i,j;
+//n - number of lines
      for(i=0;i<=5;i++){
           for(j=1;j<=i;j++){
                if(i==1 || i==4 || i==5){

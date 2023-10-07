@@ -2,15 +2,15 @@
 
 #include<stdio.h>
 void main() {
-     int n,i,j=0,s1,s2=0;
+     int n,i=0,j,s1,s2=0;
      printf("Enter Number : ");
      scanf("%d",&n);
-     for(j=n;j>0;j--){
+     for(i=n;i>0;i--){
           s1=0;
-          for(i=1;i<=j;i++){
-               s1=s1+i;
+          for(j=1;j<=i;j++){
+               s1=s1+j;
           }
           s2=s2+s1;
      }
-     printf("%d",s2);
+     printf("Sum = %d",s2);
 }

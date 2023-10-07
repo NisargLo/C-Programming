@@ -12,5 +12,5 @@ void main() {
 		}
 		s=s+1/m;
 	}
-	printf("%f",s);
+	printf("e = %f",s);
 }
