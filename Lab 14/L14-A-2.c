@@ -7,7 +7,7 @@ void main(){
 	scanf("%d",&n);
 	int a[n];
 	for(i=0;i<n;i++) {
-		printf("Enter NO. in a[%d] : ",i);
+		printf("Enter NO. %d : ",i+1);
 		scanf("%d",&a[i]);
 	}
 	for(i=0;i<n;i++){

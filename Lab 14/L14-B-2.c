@@ -8,28 +8,24 @@ void main(){
 	printf("How many NO. are you entering ? ");
 	scanf("%d",&n);
 	int a[n];
-	for(i=0;i<n;i++) {
-		printf("Enter NO. in a[%d] : ",i);
+	for(i=0;i<n;i++){
+		printf("Enter NO. %d : ",i+1);
 		scanf("%d",&a[i]);
 	}
-	
 	for(i=0;i<n;i++){
 		s1=s1+a[i];
 	}
-	c=(float)s1/n;
-	
+	c=s1/(float)n;
 	for(i=0;i<n;i++){
 		m=m*a[i];
 	}
 	g=(pow(m,1.0/n));
-	
 	for(i=0;i<n;i++){
 		s2=s2+(1.0/a[i]);
 	}
 	h=(n/s2);
-	
-	printf("\nAverage = %f",c);
-	printf("\nGeometric Mean = %f",g);
-	printf("\nHarmonic Mean = %f",h);
+	printf("\nAverage = %3.3f",c);
+	printf("\nGeometric Mean = %3.3f",g);
+	printf("\nHarmonic Mean = %3.3f",h);
 }
 

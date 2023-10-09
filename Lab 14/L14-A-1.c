@@ -2,17 +2,20 @@
 
 #include<stdio.h>
 void main() {
-     int i,j,a[i];
-     printf("Enter NO. : ");
-     for(i=0;a[i]!=-1;i++){
-          scanf("%d",&a[i]);
+     int n,i;
+	printf("How many NO. are you entering ? ");
+	scanf("%d",&n);
+	int a[n];
+	for(i=0;i<n;i++) {
+		printf("Enter NO. %d : ",i+1);
+		scanf("%d",&a[i]);
+	}
+     printf("\nNO. in Normal Order : ");
+     for(i=0;i<n;i++){
+          printf("%d ",a[i]);
      }
-     printf("NO. in Normal Order : ");
-     for(i=0;j<=i;i++){
-          printf("%d",a[i]);
-     }
-     printf("NO. in Reverse Order : ");
-     for(i=n;i>-1;i--){
-          printf("%d",a[n]);
+     printf("\nNO. in Reverse Order : ");
+     for(i=n-1;i>=0;i--){
+          printf("%d ",a[i]);
      }
 }
