@@ -1,17 +1,21 @@
-//Calculate 𝑥𝑦 without using power function and without using multiplication.
+//Calculate xy without using power function and without using multiplication.
 
 #include<stdio.h>
 void main() {
-     int i,j,b,e,x,ans;
-     printf("Enter Base & Exponent : ");
-     scanf("%d %d",&b,&e);
-     ans=b;
-     x=b;
-     for(i=1;i<e;i++){
-          for(j=1;j<b;j++){
-               ans=ans+x;
-          }
-          x=ans;
-     }
-     printf("Answer = %d",ans);
+	int i,j,x,y,s1,a;
+	printf("Enter Base : ");
+	scanf("%d",&x);
+	printf("Enter Exponent : ");
+	scanf("%d",&y);
+	s1=x;
+	a=x;
+	for(i=1;i<y;i++){
+		for(j=1;j<x;j++){
+			s1=s1+a;
+//Here s1 = x + x
+		}
+		a=s1;
+//Here firstly, a = x * x
+		}
+	printf("Answer = %d",s1);
 }

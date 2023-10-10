@@ -7,8 +7,9 @@
 
 #include<stdio.h>
 void main() {
-     int i,j,k,n=5;
-//n - number of lines
+     int i,j,k,n;
+     printf("Enter NO. of lines : ");
+     scanf("%d",&n);
      for(i=0;i<=n;i++){
           if(i<=n){
           for(j=1;j<=n-i;j++){

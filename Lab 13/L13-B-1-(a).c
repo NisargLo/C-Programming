@@ -7,10 +7,12 @@
 
 #include<stdio.h>
 void main() {
-     int i,j,k=1;
-     for(i=0;i<=5;i++){
+     int i,j,k=1,n;
+     printf("Enter NO. of lines : ");
+     scanf("%d",&n);
+     for(i=0;i<=n;i++){
           for(j=1;j<=i;j++){
-               printf("%2d ",k);
+               printf("%3d ",k);
                k++;
           }
           printf("\n");
