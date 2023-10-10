@@ -13,9 +13,27 @@ void main(){
 	 for(i=0;i<n;i++){
         for(j=i+1;j<n;j++){
             if(a[i]>a[j]){
+//Here swaping of 2 NO. is done to make it ascending
                 temp = a[i];
                 a[i] = a[j];
                 a[j] = temp;
+/*you can also swap 2 NO. like this
+	a=a+b;
+	b=a-b;
+	a=a-b;
+
+	or
+
+	a=a^b;
+	b=a^b;
+	a=a^b;
+
+	or
+
+	a=a*b;
+	b=a/b;
+	a=a/b;
+*/
             }
         }
     }
