@@ -8,17 +8,17 @@ void main() {
 	printf("Enter NO. of columns : ");
 	scanf("%d",&n);
 	int a[m][n];
-	for(i=0;i<n;i++){
+	for(i=0;i<m;i++){
 		for(j=0;j<n;j++){
 		printf("Enter Element in a[%d][%d] : ",i+1,j+1);
 		scanf("%d",&a[i][j]);
 		}
 	}
 	printf("\n");
-	for(i=0;i<n;i++){
+	for(i=0;i<m;i++){
 		for(j=0;j<n;j++){
 			if(a[i][j]<0){
-				neg++;
+				neg++; 
 			}
 			else if(a[i][j]>0){
 				pos++;
