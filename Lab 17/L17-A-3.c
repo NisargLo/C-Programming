@@ -13,7 +13,7 @@ void main(){
 	ps=&s;
 	printf("Enter NO. 1 : ");
 	scanf("%d",&n1);
-	printf("Enter NO. 1 : ");
+	printf("Enter NO. 2 : ");
 	scanf("%d",&n2);
 	*ps=*pn1+*pn2;
 	printf("\nSum = %d",*ps);
