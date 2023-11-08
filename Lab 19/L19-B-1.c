@@ -12,12 +12,10 @@ void main(){
 	printf("Ans. = %d",result);
 }
 int power(int x,int y){
-	int m=x,i=1;
-	if(y-i>=1){
-		m=m*x;
-		y--;
+	if(y==1){
+		return x;
 	}
 	else{
-		return m;
+		return x*power(x,y-1);
 	}
 }
