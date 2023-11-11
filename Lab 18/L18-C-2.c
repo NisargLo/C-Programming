@@ -4,47 +4,16 @@
 void words(int);
 void main(){
      int a;
-     printf("Enter NO. : ");
+     printf("Enter NO. less than 10000 : ");
      scanf("%d",&a);
-     words(a);
+     if(a<10000){
+          words(a);
+     }
+     else{
+          printf("Please enter NO. less than 10000");
+     }
 }
 void words(int a){
-     if(a>=90000){
-            printf("Ninety Thousand ");
-            a-=90000;
-     }
-     if(a>=80000){
-          printf("Eighty Thousand ");
-          a-=80000;
-     }
-     if(a>=70000){
-          printf("Seventy Thousand ");
-          a-=70000;
-     }
-     if(a>=60000){
-          printf("Sixty Thousand ");
-          a-=60000;
-     }
-     if(a>=50000){
-          printf("Fifty Thousand ");
-          a-=50000;
-     }
-     if(a>=40000){
-          printf("Fourty Thousand ");
-          a-=40000;
-     }
-     if(a>=30000){
-          printf("Thirty Thousand ");
-          a-=30000;
-     }
-     if(a>=20000){
-          printf("Twenty Thousand ");
-          a-=20000;
-     }
-     if(a>=10000){
-          printf("Ten Thousand ");
-          a-=10000;
-     }
      if(a>=9000){
           printf("Nine Thousand ");
           a-=9000;
@@ -186,6 +155,10 @@ void words(int a){
      }
      if(a>=1){
           printf("One ");
+          a-=1;
+     }
+     if(a>=0){
+          printf("Zero ");
           a-=1;
      }
 }
