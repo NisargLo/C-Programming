@@ -1,4 +1,4 @@
-//Check whether a number is prime, Armstrong or perfect number using functions
+//Check whether a number is prime, Armstrong or perfect number using custom library
 
 #include<stdio.h>
 #include"check.h"

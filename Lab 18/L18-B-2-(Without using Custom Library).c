@@ -1,3 +1,6 @@
+//Check whether a number is prime, Armstrong or perfect number using functions
+
+#include<stdio.h>
 void pr(int n){
 	int i,flag=0;
 	for(i=2;i<=n/2;i++){
@@ -48,4 +51,12 @@ void pe(int n){
 	else{
 		printf("\nNot Perfect NO.");
 	}
+}
+void main(){
+	int n;
+	printf("Enter NO. : ");
+	scanf("%d",&n);
+	pr(n);
+	a(n);
+	pe(n);
 }

@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 struct {
-     
+      
 }
 void main(){
 
