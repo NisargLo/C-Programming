@@ -5,10 +5,10 @@ void main(){
      FILE *f;
      char c[50];
      f=fopen("file.txt","w");
-     printf("File opened successfully.");
-     printf("\nEnter a word : ");
+     printf("File opened successfully !");
+     printf("\nEnter Word : ");
      gets(c);
      fprintf(f,"%s",c);
      fclose(f);
-     printf("File closed successfully.");
+     printf("File closed successfully !");
 }
