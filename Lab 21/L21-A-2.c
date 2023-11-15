@@ -4,9 +4,12 @@
 void main(){
      FILE *pf;
      char c;
-     pf=fopen("file.txt","r");
      int c_line=0,c_tab=0,c_space=0,c_char=0;
      pf=fopen("file.txt","r");
+if(pf==NULL){
+     printf("Error in opening File\n");
+}
+else{
      while(c!=EOF){
           c=getc(pf);
           if(c=='\n'){
@@ -24,4 +27,5 @@ void main(){
      }
      printf("\nCharacters - %d\nSpaces - %d\nTabs - %d\nLines - %d\n",c_char,c_space,c_tab,c_line);
      fclose(pf);
+}
 }
