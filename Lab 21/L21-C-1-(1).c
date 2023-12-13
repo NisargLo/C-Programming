@@ -1,4 +1,4 @@
-//Capitalize first letter of each word in file & print it in terminal
+//Capitalize first letter of every word in file & print it in terminal
 
 #include<stdio.h>
 void main(){
