@@ -7,7 +7,7 @@ void main(){
      f1=fopen("file1.txt","a+");
      f2=fopen("file2.txt","a+");
 if(f1==NULL || f2==NULL){
-     printf("Error in opening File/Files\n");
+     printf("Error in opening File\n");
 }
 else{
      fputc('\n',f1);

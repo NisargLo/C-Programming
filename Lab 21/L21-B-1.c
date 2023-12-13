@@ -1,4 +1,4 @@
-//Print contents of file in reverse order (contents of f2 printed to empty file f1)
+//Print contents of file in reverse order
 
 #include<stdio.h>
 void main(){
