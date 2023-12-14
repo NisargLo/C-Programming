@@ -1,9 +1,9 @@
-//Capitalize first letter of every word in file 1 & print it to file 2.
+//Capitalize first letter of every word in file.
 
 #include<stdio.h>
 void main(){
      int i,l;
-     char *dp,c;
+     char *dp;
      FILE *f1,*f2;
      f1=fopen("file1.txt","r+");
      f2=fopen("file2.txt","w+");
@@ -13,7 +13,7 @@ if(f1==NULL || f2==NULL){
 else{
      fseek(f1,0,SEEK_END);
      l=ftell(f1);
-     dp=(char *)malloc(l*sizeof(char));
+     dp=(char *)calloc(l,1);
      rewind(f1);
      dp[0]=fgetc(f1);
      if(dp[0]>='a' && dp[0]<='z'){
@@ -35,4 +35,6 @@ else{
 }
      fclose(f1);
      fclose(f2);
+     remove("file1.txt");
+     rename("file2.txt","file1.txt");
 }

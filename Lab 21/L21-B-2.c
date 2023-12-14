@@ -1,4 +1,4 @@
-//Capitalize first letter of each word in file 1 & print it to file 2.
+//Capitalize first letter of each word in file.
 
 #include<stdio.h>
 void main(){
@@ -35,4 +35,6 @@ else{
 }
      fclose(f1);
      fclose(f2);
+     remove("file1.txt");
+     rename("file2.txt","file1.txt");
 }
