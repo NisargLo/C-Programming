@@ -2,18 +2,15 @@
 
 #include<stdio.h>
 void main() {
-	int l,c,n;
+	int l,s,n;
 	printf("Enter NO. : ");
 	scanf("%d",&n);
-	for(l=0;l<n;l++){
-		for(c=1;c<=l+1;c++){
-			if(c==1 || c==l+1){
-				printf("1");
-			}
-			else{
-				printf("%d",l);
-			}
+	for(l=1;l<=n;l++){
+		for(s=1;s<=l+1;s++){
+			printf(" ");
+			  
+		
+		
 		}
-		printf("\n");
 	}
 }
