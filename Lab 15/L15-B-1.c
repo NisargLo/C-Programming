@@ -2,7 +2,8 @@
 
 #include<stdio.h>
 void main() {
-	int n,i,j,c=0;                                    //c-count
+	int n,i,j,c=0;
+//c-count
 	printf("How many NO. are you entering ? ");
 	scanf("%d",&n);
 	int a[n],b[n];
@@ -26,7 +27,7 @@ void main() {
 	}
 	for(i=0;i<n;i++){
 		if(b[i]!='n'){
-		printf("\nElement %d = %d",i+1,b[i]);
+			printf("\nElement %d = %d",i+1,b[i]);
 		}
 	}
 }

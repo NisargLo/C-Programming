@@ -2,15 +2,14 @@
 
 #include<stdio.h>
 void main(){
-  int n,r,m=1,bin=0;
-  printf("Enter Number : ");
-  scanf("%d",&n);
-  while(n!=0){
-    r=n%2;
-    bin=bin+(r*m);
-    m=m*10;
-    n=n/2;
-  }
-  printf("\nBinary Value : %d",bin); 
+    int n,r,m=1,b=0;
+    printf("Enter Number : ");
+    scanf("%d",&n);
+    while(n!=0){
+      r=n%2;
+      b=b+(r*m);
+      m=m*10;
+      n=n/2;
+    }
+    printf("\nBinary Value : %d",b); 
 }
-            
