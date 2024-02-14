@@ -13,7 +13,7 @@ void main(){
           temp=s1[i];
           s1[i]=s1[j];
           s1[j]=temp;
-//Here swaping is done
+     //Here swaping is done
 
      }
      puts(s1);
