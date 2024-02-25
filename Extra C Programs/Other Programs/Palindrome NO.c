@@ -1,3 +1,5 @@
+// Palindrome Number (Eg : 121, 123454321 etc...)
+
 #include<stdio.h>
 void main() {
      int n=0,i,r,s=0;

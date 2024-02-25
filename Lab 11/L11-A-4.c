@@ -1,4 +1,4 @@
-//Calculate 𝑥𝑦 without using power function
+//Calculate 𝑥 raise to 𝑦 without using power function
 
 #include<stdio.h>
 void main() {

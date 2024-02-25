@@ -1,3 +1,5 @@
+//Perfect Number
+
 #include<stdio.h>
 void main() {
      int n=0,i=1,s=0;

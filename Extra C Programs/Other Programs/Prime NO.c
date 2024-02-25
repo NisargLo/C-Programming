@@ -1,3 +1,5 @@
+//Prime NO. or not
+
 #include<stdio.h>
 void main() {
      int n=0,i=1,c;
