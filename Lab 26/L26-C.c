@@ -28,6 +28,6 @@ int main(){
 }
 
 /*
-INT_MIN is defined as (-2147483648)
-INT_MAX is defined as (2147483647)
+     INT_MIN is defined as (-2147483648)
+     INT_MAX is defined as (2147483647)
 */
