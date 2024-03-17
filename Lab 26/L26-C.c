@@ -1,9 +1,9 @@
 /*
-Write following programs in C. 
- 
-Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside 
-the signed 32-bit integer range [-2^31, 2^31 - 1] or [-2,147,483,648 to 2,147,483,647], then return 0. 
-Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
+     Write following programs in C. 
+     
+     Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside 
+     the signed 32-bit integer range [-2^31, 2^31 - 1] or [-2,147,483,648 to 2,147,483,647], then return 0. 
+     Assume the environment does not allow you to store 64-bit integers (signed or unsigned).
 */
 
 #include<stdio.h>
@@ -21,6 +21,7 @@ int main(){
      }
      if(rn>=INT_MIN && rn<=INT_MAX){
           printf("\nReverse = %ld",rn);
+          return rn;
      }
      else{
           return 0;
