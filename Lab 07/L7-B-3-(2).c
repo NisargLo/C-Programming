@@ -1,10 +1,11 @@
-//Get a number as a string from user and convert string to integer, string to float as per user’s choice
+// Get a number as a string from user and convert string to integer, string to float as per user’s choice.
+// (Hack Way)
 
 #include<stdio.h>
 void main(){
      char s[100],c;
      int i,x=0;
-     printf("Enter String (Number) : ");
+     printf("Enter String which is (Number) : ");
      gets(s);
      printf("Do you want to convert string to integer or float ? ");
      scanf("%c",&c);
