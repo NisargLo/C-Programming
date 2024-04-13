@@ -10,7 +10,9 @@
 #include<limits.h>
 // limits.h - header file used to check limits of int [-2^31, 2^31 - 1]
 int main(){
-     long int n,r,rn=0;
+     long int rn=0;
+     short int r;
+     int n;
 //rn - reverse NO.
      printf("Enter Integer : ");
      scanf("%ld",&n);
@@ -19,12 +21,13 @@ int main(){
           rn=(rn*10)+r;
           n/=10;
      }
-     if(rn>=INT_MIN && rn<=INT_MAX){
-          printf("\nReverse = %ld",rn);
-          return rn;
+     if(rn<INT_MIN && rn>INT_MAX){
+          printf("\nReverse = 0");
+          return 0;
      }
      else{
-          return 0;
+          printf("\nReverse = %ld",rn);
+          return rn;
      }
 }
 
