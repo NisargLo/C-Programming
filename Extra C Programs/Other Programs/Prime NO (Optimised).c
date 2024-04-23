@@ -1,4 +1,4 @@
-//Prime or not
+//Prime No.
 
 #include<stdio.h>
 void main(){
