@@ -1,20 +1,20 @@
-//Prime NO. or not
+//Prime No.
 
 #include<stdio.h>
 void main() {
-     int n=0,i=1,c;
+     int n,i=1,c=0;
      printf("Enter Number : ");
      scanf("%d",&n);
-     while(i<=n){
+     while(i<=n/2){
           if(n%i==0){
                c++;
           }
           i++;
      }
-     if(c==2){
+     if(c==1){
           printf("Prime");
      }
-     else {
+     else{
           printf("Not Prime");
      }
 }
