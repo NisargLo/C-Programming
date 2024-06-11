@@ -1,5 +1,6 @@
 <h1>Creative Commons Attribution 4.0 International License</h1>
 
+<br>
 <h3>You are free to:</h3>
 <ul>
   <li><b>Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</li><br>
