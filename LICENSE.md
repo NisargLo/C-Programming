@@ -1,6 +1,5 @@
 <h1>Creative Commons Attribution 4.0 International License</h1>
 
-<br>
 <h3>You are free to:</h3>
 <ul>
   <li><b>Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</li><br>
@@ -10,12 +9,8 @@
 
 <h3>Under the following terms:</h3>
 <ul>
-  <li>Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable       manner, but not in any way that suggests the licensor endorses you or your use.</li>
-</ul>
-
-<h3>No additional restrictions:</h3>
-<ul>
-  <li>You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
+  <li><b>Attribution:</b> You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+  <li><b>No additional restrictions:</b> You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</li>
 </ul>
 
 <h3>Notices:</h3>
