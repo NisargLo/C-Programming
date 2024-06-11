@@ -1,14 +1,12 @@
 <h1>Creative Commons Attribution 4.0 International License</h1>
 
-<h3>You are free to:</h3>
-<ul>
-  <li><b>Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</li><br>
-  <li><b>Adapt:</b> Remix, transform, and build upon the material for any purpose, even commercially.</li><br>
-  <li>The licensor cannot revoke these freedoms as long as you follow the license terms.</li><br>
-</ul>
-
 <dl>
-  <dt><h3>Under the following terms:</h3></dt>
+  <dt><h3></You are free to:h3></h3>
+  <dd><b>Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</dd>
+  <dd><b>Adapt:</b> Remix, transform, and build upon the material for any purpose, even commercially.</dd>
+  <dd>The licensor cannot revoke these freedoms as long as you follow the license terms.</dd>
+
+  <dt><br><h3>Under the following terms:</h3></dt>
   <dd><b>Attribution:</b> You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</dd>
   <dd><b>No additional restrictions:</b> You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</dd>
 
