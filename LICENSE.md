@@ -1,7 +1,7 @@
 <h1>Creative Commons Attribution 4.0 International License</h1>
 
 <dl>
-  <dt><h2>You are free to:<h2></dt>
+  <dt><h3>You are free to:<h3></dt>
   <dd><b>Share - </b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</dd>
   <dd><b>Adapt - </b> Remix, transform, and build upon the material for any purpose, even commercially.</dd>
   <dd>The licensor cannot revoke these freedoms as long as you follow the license terms.</dd>
