@@ -2,7 +2,7 @@
 
 <h3>You are free to:</h3>
 <ul style="list-style-type: none;">
-  <li><b style="font-weight:bolder">Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</li><br>
+  <li><b>Share:</b> Copy and redistribute the material in any medium or format for any purpose, even commercially.</li><br>
   <li><b style="font-weight:bolder">Adapt:</b> Remix, transform, and build upon the material for any purpose, even commercially.</li><br>
   <li>The licensor cannot revoke these freedoms as long as you follow the license terms.</li><br>
 </ul>
