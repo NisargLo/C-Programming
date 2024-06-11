@@ -10,7 +10,7 @@
 <dl>
   <dt><h3>Under the following terms:</h3></dt>
   <dd><b>Attribution:</b> You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</dd>
-  <dd><b>No additional restrictions:</b> You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</dd>
+  <dd><b>No additional restrictions:</b> You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.</dd><br>
 
   <dt><h3>Notices:</h3></dt>
   <dd>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</dd>
