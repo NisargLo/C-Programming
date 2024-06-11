@@ -14,8 +14,8 @@
 </ul>
 
 <dl>
-<dt>Notices:</dt>
-  <dd>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</li>
+<dt><h3>Notices:</h3></dt>
+  <dd>You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.</dd>
   <dd>No warranties are given. The license may not give you all the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.</dd>
 </dl>
 
