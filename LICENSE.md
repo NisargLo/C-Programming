@@ -1,3 +1,9 @@
+<style>
+  ul{
+    list-style-type: none;
+  }
+</style>
+
 <h1>Creative Commons Attribution 4.0 International License</h1>
 
 <h3>You are free to:</h3>
