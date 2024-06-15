@@ -1,3 +1,3 @@
-<i><h1>Semester - 1</h1>
-<h1>Subject : Computer Programming using C</h1>
+<i><h2>Semester - 1</h2>
+<h2>Subject : Computer Programming using C</h2>
 <h2>Programming Language : C</h2></i>
